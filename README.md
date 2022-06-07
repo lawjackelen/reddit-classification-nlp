@@ -19,7 +19,7 @@ Can anything be divined from collectable data from Reddit to understand this ran
 PRAW API is an open-source python package that allows for access to Reddit's API. By utlizing this package, the top 2,000 hot posts were accessed along with useful information like the title, subreddit, number of comments, time posted, and many more. Collecting 2,000 posts per day for 5 consecutive days led to a datasource of 10,000 posts to analyze! With this data in hand, powerful exploratory data analysis was performed and features were created. This model focuses primarily on Natural Language Processing (NLP) of the title texts to find the anatomy of an engaging post's title. Taking those pieces and combining them with other attributes from the PRAW API dataset, a classification model was created.
 
 The model was trained and optimized toward getting an overall accuracy of identifying posts by their engaging or not-engaging status. After this process was complete, the model was able to perform that identification with 96% accuracy and a 1.9% False Positive Rate!
-<img src=../images/confusion_matrix.png alt="drawing" width="400"/>
+<img src=images/confusion_matrix.png alt="drawing" width="400"/>
 
 At the high level, a few easy recommendations for getting an engaging Reddit post:
   1.  **Be Patient:**  Reddit takes the age of the post into account for Hot! Give the post around 8 hours to really rev up before making a final call on its success.
