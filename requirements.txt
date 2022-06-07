@@ -9,3 +9,12 @@ pandas==0.22.0
 requests==2.18.4
 scikit-learn==0.19.1
 seaborn==0.8.1
+
+praw==7.6.0
+
+cleantext==1.1.4
+emot==3.1
+nltk==3.6.5
+spacy==3.3.0
+spacymoji==3.0.1
+spacytextblob==4.0.0
