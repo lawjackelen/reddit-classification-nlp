@@ -18,7 +18,7 @@ Can anything be divined from collectable data from Reddit to understand this ran
 
 PRAW API is an open-source python package that allows for access to Reddit's API. By utlizing this package, the top 2,000 hot posts were accessed along with useful information like the title, subreddit, number of comments, time posted, and many more. Collecting 2,000 posts per day for 5 consecutive days led to a datasource of 10,000 posts to analyze! With this data in hand, powerful exploratory data analysis was performed and features were created. This model focuses primarily on Natural Language Processing (NLP) of the title texts to find the anatomy of an engaging post's title. Taking those pieces and combining them with other attributes from the PRAW API dataset, a classification model was created.
 
-The model was trained and optimized toward getting an overall accuracy of identifying posts by their engaging or not-engaging status. After this process was complete, the model was able to perform with 72% accuracy calculated through cross-validation. See the confusion matrix below for more information on the classification performance.
+The model was trained and optimized toward getting an overall accuracy of identifying posts by their engaging or not-engaging status. After this process was complete, the model was able to perform with 71%. See the confusion matrix below for more information on the classification performance.
 
 <img src=images/confusion_matrix.png alt="drawing" width="400"/>
 
